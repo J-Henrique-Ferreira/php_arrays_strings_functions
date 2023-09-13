@@ -17,7 +17,7 @@ function efetuaDeposito (array $conta, float $valorDeposito): array {
     if ($valorDeposito >= 0) {
         $conta['saldo'] += $valorDeposito;
     } else {
-        exibeMensagem("valor de depósito inválido para o titutular $conta[titular]");
+        exibeMensagem("valor de depósito inválido para o titular $conta[titular]");
     }
     return $conta;
 }
